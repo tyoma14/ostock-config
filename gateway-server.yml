@@ -31,11 +31,9 @@ management:
       exposure:
         include:
           - gateway
-management:
   tracing:
     sampling:
       probability: 1
-management:
   zipkin:
     tracing:
       endpoint: http://zipkin:9411/api/v2/spans
